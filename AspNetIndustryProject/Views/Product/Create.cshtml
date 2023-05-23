@@ -1,0 +1,43 @@
+﻿@model AspNetIndustryProject.Models.Product
+
+@{
+    ViewData["Title"] = "Create Product";
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <form method="post">
+            <h2>@ViewData["Title"]</h2>
+            <hr />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-floating">
+                <input asp-for="Name" class="form-control" autocomplete="Name" aria-required="true" />
+                <label asp-for="Name"></label>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="PricePerUnit" class="form-control" autocomplete="PricePerUnit" aria-required="true" />
+                <label asp-for="PricePerUnit"></label>
+                <span asp-validation-for="PricePerUnit" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating">
+                <input asp-for="Quantity" class="form-control" autocomplete="Quantity" aria-required="true" />
+                <label asp-for="Quantity"></label>
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+          
+
+            <button type="submit" class="btn btn-primary">Add Prouct</button>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
