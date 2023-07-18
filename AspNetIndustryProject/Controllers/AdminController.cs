@@ -4,6 +4,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AspNetIndustryProject.Controllers
 {
+    // Adding role for checking the current user is a member of 
+    // to access the requested resource.
+    // This Authorize attribute limits access to any actions 
+    // on this controller.
     [Authorize(Roles = "Admin")]
     public class AdminController : Controller
     {

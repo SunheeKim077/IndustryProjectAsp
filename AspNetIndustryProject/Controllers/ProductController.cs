@@ -12,7 +12,7 @@ namespace AspNetIndustryProject.Controllers
         public List<Product> productList = new List<Product>();
         public Product product = new Product();
 
-        // Reading connection string from appSettings.json file using IConfiguration interface.
+        // Reading connection string from secrets.json file using IConfiguration interface.
         private readonly IConfiguration configuration;
 
         public ProductController(IConfiguration configuration)
@@ -20,7 +20,7 @@ namespace AspNetIndustryProject.Controllers
             this.configuration = configuration;
         }
 
-        [AllowAnonymous]
+        [AllowAnonymous] // All users have an authorization.
         [HttpGet]
         public async Task<IActionResult> Index()
         {
@@ -51,20 +51,20 @@ namespace AspNetIndustryProject.Controllers
             return View(productList);
         }
 
-        [Authorize (Roles ="Admin")]
+        [Authorize (Roles ="Admin, Manager")] // Admin or Manager has an authorization.
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin, Manager")]
         [HttpPost]
         public async Task<IActionResult> Create(Product product)
         {
-            string connectionString = this.configuration.GetConnectionString("defaultConnection");
+            string connectionString = this.configuration.GetConnectionString("defaultConnection"); // secrets.json
 
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            using (SqlConnection conn = new SqlConnection(connectionString)) 
             {
                 await conn.OpenAsync();
                 string query = "INSERT INTO Products (name, priceperunit, quantity) VALUES (@name, @priceperunit, @quantity)";
@@ -73,7 +73,6 @@ namespace AspNetIndustryProject.Controllers
                     cmd.Parameters.AddWithValue("@name", product.Name);
                     cmd.Parameters.AddWithValue("@priceperunit", product.PricePerUnit);
                     cmd.Parameters.AddWithValue("@quantity", product.Quantity);
-
                     try
                     {
                         await cmd.ExecuteNonQueryAsync();
@@ -82,7 +81,6 @@ namespace AspNetIndustryProject.Controllers
                     }
                     catch (Exception ex)
                     {
-
                         if (conn.State != ConnectionState.Closed)
                         {
                             await conn.CloseAsync();
@@ -93,19 +91,26 @@ namespace AspNetIndustryProject.Controllers
             }
         }
 
-        [Authorize (Roles = "Admin")]
+        [Authorize (Roles = "Admin")] // Only an Admin has an authorization.
         [HttpGet]
         public async Task<IActionResult> EditProduct(int id)
         {
+            // Reading ConnectionString from AppSettings.json file
+            // using IConfiguration interface.
             string connectionString = this.configuration.GetConnectionString("defaultConnection");
 
+            // Database connection.
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 await conn.OpenAsync();
+
+                // Insert parameter name instead of real user-input value.
                 string query = "SELECT * FROM Products WHERE id = @id";
 
+                // Create SqlCommand
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
+                    // Use AddWithValue method to add a new parameter.
                     cmd.Parameters.AddWithValue("@id", id);
 
                     using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
@@ -157,7 +162,7 @@ namespace AspNetIndustryProject.Controllers
             } 
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Policy = "RequireAdminRole")] // Using Policy property in Program.cs file.
         [HttpGet]
         public async Task<IActionResult> Delete(int id)
         {
@@ -186,7 +191,7 @@ namespace AspNetIndustryProject.Controllers
                 return View(product);
             }
         }
-        [Authorize (Roles = "Admin")]
+        [Authorize (Policy = "RequireAdminRole")]
         [HttpPost, ActionName("Delete")]
         public async Task<IActionResult> DeleteConfirm(int id)
         {

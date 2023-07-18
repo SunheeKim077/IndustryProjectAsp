@@ -10,10 +10,16 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("defaultConnection")));
 
+// Add Identity User for using authorization.
 builder.Services.AddDefaultIdentity<IdentityUser>().AddDefaultTokenProviders()   /*(options => options.SignIn.RequireConfirmedAccount = true)*/
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
+// Policy based role check.
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("RequireAdminRole", policy => policy.RequireRole("Admin"));
+});
 
 
 var app = builder.Build();

@@ -8,93 +8,97 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AspNetIndustryProject
 build_property.RootNamespace = AspNetIndustryProject
-build_property.ProjectDir = C:\Users\skim0\OneDrive - Manukau Institute of Technology\Documents\Level 7(2023)\AspNetIndustryProject\AspNetIndustryProject\
+build_property.ProjectDir = H:\OneDrive\Documents\Level 7(2023)\AspNetIndustryProject\AspNetIndustryProject\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\skim0\OneDrive - Manukau Institute of Technology\Documents\Level 7(2023)\AspNetIndustryProject\AspNetIndustryProject
+build_property.MSBuildProjectDirectory = H:\OneDrive\Documents\Level 7(2023)\AspNetIndustryProject\AspNetIndustryProject
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Areas/Identity/Pages/Account/Login.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Areas/Identity/Pages/Account/Logout.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Areas/Identity/Pages/Account/Register.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Areas/Identity/Pages/_ViewImports.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Areas/Identity/Pages/_ViewStart.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Admin/CreateRole.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Admin/CreateRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlUm9sZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Admin/ListRole.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Admin/ListRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGlzdFJvbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Home/Index.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Event/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Home/Privacy.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Product/Create.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Product/Delete.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Product/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Product/EditProduct.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Product/EditProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0UHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Product/Index.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Shared/Error.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Shared/_LoginPartial.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/_ViewImports.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/_ViewStart.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/skim0/OneDrive - Manukau Institute of Technology/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Shared/_Layout.cshtml]
+[H:/OneDrive/Documents/Level 7(2023)/AspNetIndustryProject/AspNetIndustryProject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-pekm02g7rd

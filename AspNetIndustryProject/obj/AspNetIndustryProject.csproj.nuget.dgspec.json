@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\skim0\\OneDrive - Manukau Institute of Technology\\Documents\\Level 7(2023)\\AspNetIndustryProject\\AspNetIndustryProject\\AspNetIndustryProject.csproj": {}
+    "H:\\OneDrive\\Documents\\Level 7(2023)\\AspNetIndustryProject\\AspNetIndustryProject\\AspNetIndustryProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\skim0\\OneDrive - Manukau Institute of Technology\\Documents\\Level 7(2023)\\AspNetIndustryProject\\AspNetIndustryProject\\AspNetIndustryProject.csproj": {
+    "H:\\OneDrive\\Documents\\Level 7(2023)\\AspNetIndustryProject\\AspNetIndustryProject\\AspNetIndustryProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\skim0\\OneDrive - Manukau Institute of Technology\\Documents\\Level 7(2023)\\AspNetIndustryProject\\AspNetIndustryProject\\AspNetIndustryProject.csproj",
+        "projectUniqueName": "H:\\OneDrive\\Documents\\Level 7(2023)\\AspNetIndustryProject\\AspNetIndustryProject\\AspNetIndustryProject.csproj",
         "projectName": "AspNetIndustryProject",
-        "projectPath": "C:\\Users\\skim0\\OneDrive - Manukau Institute of Technology\\Documents\\Level 7(2023)\\AspNetIndustryProject\\AspNetIndustryProject\\AspNetIndustryProject.csproj",
+        "projectPath": "H:\\OneDrive\\Documents\\Level 7(2023)\\AspNetIndustryProject\\AspNetIndustryProject\\AspNetIndustryProject.csproj",
         "packagesPath": "C:\\Users\\skim0\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skim0\\OneDrive - Manukau Institute of Technology\\Documents\\Level 7(2023)\\AspNetIndustryProject\\AspNetIndustryProject\\obj\\",
+        "outputPath": "H:\\OneDrive\\Documents\\Level 7(2023)\\AspNetIndustryProject\\AspNetIndustryProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Google.Apis.Calendar.v3": {
+              "target": "Package",
+              "version": "[1.60.0.3017, )"
+            },
+            "Grpc.Core": {
+              "target": "Package",
+              "version": "[2.46.6, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.15, )"
@@ -69,6 +77,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.13, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.15.0, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
